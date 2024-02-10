@@ -391,7 +391,7 @@ dependencies = [
 
 [[package]]
 name = "cw20-base"
-version = "0.0.0"
+version = "1.1.2"
 dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std",
@@ -408,7 +408,7 @@ dependencies = [
 
 [[package]]
 name = "cw404"
-version = "0.0.0"
+version = "0.1.0"
 dependencies = [
  "cosmwasm-schema",
  "cosmwasm-std",
@@ -452,24 +452,6 @@ dependencies = [
 
 [[package]]
 name = "cw721-base"
-version = "0.0.0"
-dependencies = [
- "cosmwasm-schema",
- "cosmwasm-std",
- "cw-multi-test 0.16.5",
- "cw-ownable",
- "cw-storage-plus 1.2.0",
- "cw-utils 1.0.3",
- "cw2 1.1.2",
- "cw721 0.18.0",
- "cw721-base 0.16.0",
- "schemars",
- "serde",
- "thiserror",
-]
-
-[[package]]
-name = "cw721-base"
 version = "0.16.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "77518e27431d43214cff4cdfbd788a7508f68d9b1f32389e6fce513e7eaccbef"
@@ -480,6 +462,24 @@ dependencies = [
  "cw-utils 0.16.0",
  "cw2 0.16.0",
  "cw721 0.16.0",
+ "schemars",
+ "serde",
+ "thiserror",
+]
+
+[[package]]
+name = "cw721-base"
+version = "0.18.0"
+dependencies = [
+ "cosmwasm-schema",
+ "cosmwasm-std",
+ "cw-multi-test 0.16.5",
+ "cw-ownable",
+ "cw-storage-plus 1.2.0",
+ "cw-utils 1.0.3",
+ "cw2 1.1.2",
+ "cw721 0.18.0",
+ "cw721-base 0.16.0",
  "schemars",
  "serde",
  "thiserror",
@@ -586,9 +586,9 @@ dependencies = [
 
 [[package]]
 name = "either"
-version = "1.9.0"
+version = "1.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a26ae43d7bcc3b814de94796a5e736d4029efb0ee900c12e2d54c993ad1a1e07"
+checksum = "11157ac094ffbdde99aa67b23417ebdd801842852b500e395a45a9c0aac03e4a"
 
 [[package]]
 name = "elliptic-curve"

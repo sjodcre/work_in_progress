@@ -17,7 +17,7 @@ cw-ownable      = "^0.5"
 cw-storage-plus = "^1.1"
 cw-utils        = "^1.0"
 schemars        = "^0.8"
-serde           = { version = "1.0.188", features = ["derive"] }
+serde           = { version = "1.0.189", default-features = false, features = ["derive"] }
 thiserror       = "^1.0"
 
 

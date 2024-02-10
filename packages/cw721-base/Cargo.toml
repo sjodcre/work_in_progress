@@ -1,9 +1,17 @@
 [package]
 name          = "cw721-base"
+description   = "Basic implementation cw721 NFTs"
 authors       = [
   "Ethan Frey <ethanfrey@users.noreply.github.com>",
   "Orkun Külçe <orkun@deuslabs.fi>",
 ]
+version       = "0.18.0"
+edition       = "2021"
+license       = "Apache-2.0"
+repository    = "https://github.com/CosmWasm/cw-nfts"
+homepage      = "https://cosmwasm.com"
+documentation = "https://docs.cosmwasm.com"
+rust-version  = "1.65"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
