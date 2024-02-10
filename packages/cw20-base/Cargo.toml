@@ -1,0 +1,27 @@
+[package]
+name = "cw20-base"
+authors = ["Ethan Frey <ethanfrey@users.noreply.github.com>"]
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+backtraces = ["cosmwasm-std/backtraces"]
+# use library feature to disable all instantiate/execute/query exports
+library = []
+
+
+[dependencies]
+cosmwasm-schema = { workspace = true }
+cw2             = { workspace = true }
+cw20            = { workspace = true }     
+cw-storage-plus = { workspace = true }
+cosmwasm-std    = { workspace = true }
+schemars        = { workspace = true }
+semver          = "1"
+serde           = { workspace = true }
+thiserror       = { workspace = true }
+
+[dev-dependencies]
+cw-multi-test = "0.16.5"
+cw-utils = "1.0.1"
